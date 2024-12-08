@@ -11,84 +11,113 @@
       Основна <b>тригонометрична тотожність:</b>
       <i>cos<sup>2</sup><b>a</b> + sin<sup>2</sup><b>a</b></i> = 1
     </p>
-    <p>Приклад суворої нерівності: &#945;<&#946;.</p>
-    <p>Нестрога нерівність &#945&le;&#946; означає, що або &#945;<&#946;, або &#945;=&#946;.</p>
-     <ul>
-        <li>1. Як ви оцінюєте цей продукт?
-            <ul>
-                <li><input type="radio" name="question1" value="1"> Дуже погано</li>
-                <li><input type="radio" name="question1" value="2"> Погано</li>
-                <li><input type="radio" name="question1" value="3"> Нормально</li>
-                <li><input type="radio" name="question1" value="4"> Добре</li>
-                <li><input type="radio" name="question1" value="5"> Дуже добре</li>
-            </ul>
-        </li>
-        <li>2. Що б ви хотіли покращити в продукті?
-            <ul>
-                <li><input type="checkbox" name="question3" value="speed"> Швидкість</li>
-                <li><input type="checkbox" name="question3" value="design"> Дизайн</li>
-                <li><input type="checkbox" name="question3" value="features"> Додаткові функції</li>
-            </ul>
-        </li>
+    <p>Приклад суворої нерівності: &#945;&lt;&#946;.</p>
+    <p>
+      Нестрога нерівність &#945;&le;&#946; означає, що або &#945;&lt;&#946;, або
+      &#945;=&#946;.
+    </p>
+    <ul>
+      <li>
+        1. Як ви оцінюєте цей продукт?
+        <ul>
+          <li><input type="radio" name="question1" value="1" /> Дуже погано</li>
+          <li><input type="radio" name="question1" value="2" /> Погано</li>
+          <li><input type="radio" name="question1" value="3" /> Нормально</li>
+          <li><input type="radio" name="question1" value="4" /> Добре</li>
+          <li><input type="radio" name="question1" value="5" /> Дуже добре</li>
+        </ul>
+      </li>
+      <li>
+        2. Що б ви хотіли покращити в продукті?
+        <ul>
+          <li>
+            <input type="checkbox" name="question3" value="speed" /> Швидкість
+          </li>
+          <li>
+            <input type="checkbox" name="question3" value="design" /> Дизайн
+          </li>
+          <li>
+            <input type="checkbox" name="question3" value="features" />
+            Додаткові функції
+          </li>
+        </ul>
+      </li>
     </ul>
 
-     <h2>Успішність студентів 3-го курсу</h2>
+    <h2>Успішність студентів 3-го курсу</h2>
 
     <table border="1px">
-        <thead>
-            <tr>
-                <th>Студент</th>
-                <th>АК</th>
-                <th>ПЗМВ</th>
-                <th>СПЗ</th>
-                <th>КС</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Іванов І.І.</td>
-                <td>90</td>
-                <td>85</td>
-                <td>95</td>
-                <td>88</td>
-            </tr>
-            <tr>
-                <td>Коваленко Ю. О.</td>
-                <td>82</td>
-                <td>78</td>
-                <td>92</td>
-                <td>91</td>
-            </tr>
-            <tr>
-                <td>Ніколенко Н. В.</td>
-                <td>88</td>
-                <td>91</td>
-                <td>89</td>
-                <td>80</td>
-            </tr>
-        </tbody>
+      <thead>
+        <tr>
+          <th>Студент</th>
+          <th>АК</th>
+          <th>ПЗМВ</th>
+          <th>СПЗ</th>
+          <th>КС</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Іванов І.І.</td>
+          <td>90</td>
+          <td>85</td>
+          <td>95</td>
+          <td>88</td>
+        </tr>
+        <tr>
+          <td>Коваленко Ю. О.</td>
+          <td>82</td>
+          <td>78</td>
+          <td>92</td>
+          <td>91</td>
+        </tr>
+        <tr>
+          <td>Ніколенко Н. В.</td>
+          <td>88</td>
+          <td>91</td>
+          <td>89</td>
+          <td>80</td>
+        </tr>
+      </tbody>
     </table>
 
     <form action="submit_registration.php" method="POST">
-        <h2>Реєстрація</h2>
-        <label for="first_name">Ім'я:</label>
-        <input type="text" id="first_name" name="first_name" required><br><br>
-        <label for="last_name">Прізвище:</label>
-        <input type="text" id="last_name" name="last_name" required><br><br>
-        <label for="email">Електронна пошта:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="phone">Телефон:</label>
-        <input type="tel" id="phone" name="phone" required><br><br>
-        <label for="password">Пароль:</label>
-        <input type="password" id="password" name="password" required><br><br>
-        <label for="confirm_password">Підтвердження паролю:</label>
-        <input type="password" id="confirm_password" name="confirm_password" required><br><br>
-        <input type="submit" value="Зареєструватися">
+      <h2>Реєстрація</h2>
+      <label for="first_name">Ім'я:</label>
+      <input
+        type="text"
+        id="first_name"
+        name="first_name"
+        required
+      /><br /><br />
+      <label for="last_name">Прізвище:</label>
+      <input type="text" id="last_name" name="last_name" required /><br /><br />
+      <label for="email">Електронна пошта:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+      <label for="phone">Телефон:</label>
+      <input type="tel" id="phone" name="phone" required /><br /><br />
+      <label for="password">Пароль:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required
+      /><br /><br />
+      <label for="confirm_password">Підтвердження паролю:</label>
+      <input
+        type="password"
+        id="confirm_password"
+        name="confirm_password"
+        required
+      /><br /><br />
+      <input type="submit" value="Зареєструватися" />
     </form>
-    <br><br>
+    <br /><br />
     <a href="https://nure.ua/">
-        <img src="https://nure.ua/wp-content/themes/nure/images/logo.png?v=2.0" alt="ХНУРЕ">
+      <img
+        src="https://nure.ua/wp-content/themes/nure/images/logo.png?v=2.0"
+        alt="ХНУРЕ"
+      />
     </a>
-</body>
+  </body>
 </html>
-і
